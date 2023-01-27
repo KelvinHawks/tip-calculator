@@ -1,0 +1,61 @@
+body{
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    background-color: rgb(46, 75, 236);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+h1, h2, h3, h4{
+    color: #fff;
+}
+.container{
+    width: 25%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: rgb(1, 1, 14);
+    padding: 22px;
+    border-radius: 12px;
+}
+.container-div{
+    line-height: 18px
+}
+.container-div input{
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    border-radius: 12px;
+    background-color: rgb(6, 6, 78);
+    border: none;
+}
+.total-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-align{
+    line-height: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.btn-align button{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(6, 6, 78);
+    border: none;
+    color: #fff;
+}
+.btn-align h1{
+    padding: 5px;
+}
+
+@media only screen and (max-width:700px) {
+    .container{
+        width: 60%;
+    }
+}
